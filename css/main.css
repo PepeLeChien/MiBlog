@@ -63,5 +63,37 @@ header .media {
 .nav__profile a{
     font-size: 1.8rem;
     font-weight: 600;
-    text-decoration: underline black .1rem;
+    border-bottom: #000 .1rem solid;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+    gap: 12rem;
+    width: 100%;
+    height: calc(100vh - 13rem);
+    background-image: url(../assets/Cover.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover--title {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.6rem;
+    color: #fff;
+    letter-spacing: .8rem;
+}
+
+.cover--button {
+    width: 10rem;
+    height: 4rem;
+    background-color: #5ae9b9;
+    border: none;
+    border-radius: 10%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
 }
