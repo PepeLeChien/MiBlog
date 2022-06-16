@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 13rem;
+}
+header a {
+    text-decoration: none;
+    color: #000;
+}
+header .media {
+    width: 100%;
+    height: 37%;
+    background-color: #5ae9b9;
+    padding: 0 6rem;
+}
+.media__div {
+    display: flex;
+    gap: 3.6rem;
+    width: auto;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+}
+.media__div a{
+    width: 3rem;
+    height: 3rem;
+}
+.media__div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.nav {
+    display: flex;
+    width: 100%;
+    height: 63%;
+    padding: 0 6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo {
+    width: 24rem;
+    height: 5rem;
+}
+.nav__logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.nav__profile a{
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-bottom: #000 .1rem solid;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    width: 100vw;
+    height: 450px;
+    background-color: #e0e3ea;
+}
+
+.principal__view {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 120px;
+}
+
+.principal__view h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal__view img {
+    height: 300px;
+    width: 500px;
+}
+
+.principal__text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.principal__text h3 {
+    font-size: 20px;
+}
+
+.principal__text p {
+    font-size: 18px;
+    width: 400px;
+}
+
+.principal__text button {
+    width: 100px;
+    height: 30px;
+    border-color: #5ae9b9;
+    border-width: 2px;
+}
+
+.principal__text button a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000; 
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
